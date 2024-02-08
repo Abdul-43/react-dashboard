@@ -1,0 +1,33 @@
+@import "./variables.scss";
+@import "./responsive.scss";
+* {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.main {
+  font-family: "inter", sans-serif;
+  background-color: $main-bg;
+  color: $main-color;
+}
+.container{
+  display: flex;
+
+}
+.menuContainer{
+  width: max-content;
+  border-right: 2px solid $soft-bg;
+  padding: 5px 20px;
+
+}
+
+.contentContainer{
+  width: 100%;
+  padding: 5px 20px;
+
+}

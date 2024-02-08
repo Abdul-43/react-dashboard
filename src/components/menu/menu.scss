@@ -1,0 +1,36 @@
+@import "../../variables.scss";
+@import "../../responsive.scss";
+
+.menu {
+  margin-top: 10px;
+
+  .item {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 10px;
+    .title {
+      color: $soft-color;
+      font-weight: 200;
+      @include md {
+        display: none;
+      }
+    }
+    .list-item {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      border-radius: 6px;
+      padding: 10px;
+
+      &:hover {
+        background-color: $soft-bg;
+      }
+      .list-item-title {
+        @include md {
+          display: none;
+        }
+      }
+    }
+  }
+}

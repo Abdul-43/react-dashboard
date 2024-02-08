@@ -1,0 +1,15 @@
+.productTable{
+
+    .title{
+        display: flex;
+        gap: 20px;
+        margin-bottom: 10px;
+        align-items: center;
+        button{
+            background-color: rgb(255, 255, 255);
+            border-radius: 5px;
+            padding: 5px;
+            cursor: pointer;
+        }
+    }
+}
